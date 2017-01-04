@@ -1,10 +1,32 @@
 body {
-  background-image: url("http://cdn.wallpapersafari.com/79/0/Cyd3OX.jpg");
+    background-image: url("http://cdn.wallpapersafari.com/79/0/Cyd3OX.jpg");
 }
 
+.keys {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
 .key {
-  background-color: rgba(30, 180, 31, 0.78);
-  width: 100px;
-  height: 100px;
+    background-color:rgba(2, 8, 1, 0.22);
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    border: solid;
+    width: 100px;
+    height: 100px;
+    color: white;
+    margin-left: 10px;
+
+}
+
+kbd {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+span {
+  display: flex;
+  justify-content: center;
 }
