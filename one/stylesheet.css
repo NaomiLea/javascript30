@@ -4,20 +4,30 @@ body {
 
 .keys {
   display: flex;
-  flex-direction: row;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
   justify-content: center;
 }
 
 .key {
-    background-color:rgba(2, 8, 1, 0.22);
-    border-color: rgb(0, 0, 0);
-    border-width: 5px;
-    border: solid;
-    width: 100px;
-    height: 100px;
-    color: white;
-    margin-left: 10px;
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+}
 
+.playing {
+  transform: scale(1.1);
+  border-color: #ff00b0;
+  box-shadow: 0 0 1rem #ff00b0;
 }
 
 kbd {
@@ -29,4 +39,5 @@ kbd {
 span {
   display: flex;
   justify-content: center;
+  font-family: arial;
 }
