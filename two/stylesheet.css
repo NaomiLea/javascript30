@@ -21,14 +21,22 @@ body {
 
 .hour-hand {
   width: 80px;
+  position: absolute;
+  top: 200px;
+  margin-left: 120px;
+
 }
 
 .min-hand {
   width: 200px;
+  position: absolute;
+  top: 200px;
 }
 
 .second-hand {
   width: 200px;
   height: 5px;
   background-color: rgb(6, 2, 6);
+  position: absolute;
+  top: 200px;
 }
