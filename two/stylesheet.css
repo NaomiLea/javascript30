@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(53, 79, 56);
+}
+
+.clock{
+  border-width: 20px;
+  border: solid;
+  border-color: rgb(213, 158, 17);
+  border-radius: 100px;
+  height: 200px;
+  width: 200px;
+}
