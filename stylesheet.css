@@ -74,7 +74,7 @@ body {
 
 .controls {
     position: absolute;
-    left: 350px;
+    right: 740px;
     top: 200px;
     color: white;
     font-family: 'Dosis', sans-serif;
@@ -85,4 +85,34 @@ body {
   --base: rgb(109, 109, 189);
   --spacing: 10px;
   --blur: 0px;
+}
+
+.jukebox {
+  position: absolute;
+  left: 800px;
+  bottom: 73px;
+  width: 20%;
+  height: 30%;
+
+}
+
+#menu {
+  display: none;
+  width: 400px;
+  height: 450px;
+  background-color: rgb(244, 238, 217);
+  position: relative;
+  bottom: 250px;
+  left: 400px;
+  border-radius: 10px;
+}
+
+#title {
+  font-family: 'Kumar One', cursive;
+  font-size: 32px;
+
+}
+
+.songs {
+  font-family: 'Dosis', sans-serif;
 }

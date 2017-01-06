@@ -5,6 +5,7 @@
     <title>messAround</title>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kumar+One" rel="stylesheet">
 
 </head>
 
@@ -31,9 +32,19 @@
         <label for="base">Base Color</label>
         <input id="base" type="color" name="base" value="#ffc600">
     </div>
+    <img class="jukebox" src="jukebox.png" onClick="showDiv()">
+    <div id="menu">
+        <center>
+            <p id=title>Songs</p>
+            <p class="songs" id="masterpiece" data-key="65">Press A - Jessie J - Masterpiece</p>
+        </center>
+    </div>
     <div class="floor">
 
     </div>
+
+
+    <audio data-key="65" src="masterpiece.mp3"></audio>
 </body>
 <script src="index.js"></script>
 
