@@ -1,11 +1,12 @@
 body {
     background-image: url("http://wallpaper-gallery.net/images/pattern-wallpapers/pattern-wallpapers-11.jpg");
+    opacity: var(--opacity);
 }
 
 .floor {
     width: 100%;
     height: 80px;
-    background-color: rgb(236, 227, 195);
+    background-color: var(--base);
     margin: 0 auto;
     position: absolute;
     bottom: 0px;
@@ -67,52 +68,61 @@ body {
     position: absolute;
     top: 200px;
     left: 70px;
-    padding: var(--spacing);
+    border: ridge;
     background: var(--base);
     filter: blur(var(--blur));
 }
 
 .controls {
-    position: absolute;
-    right: 740px;
-    top: 200px;
     color: white;
     font-family: 'Dosis', sans-serif;
 }
 
 
+
 :root {
-  --base: rgb(109, 109, 189);
-  --spacing: 10px;
-  --blur: 0px;
+    --base: rgb(109, 109, 189);
+    --spacing: 10px;
+    --opacity: 1;
 }
 
 .jukebox {
-  position: absolute;
-  left: 800px;
-  bottom: 73px;
-  width: 20%;
-  height: 30%;
-
+    position: absolute;
+    left: 800px;
+    bottom: 73px;
+    width: 20%;
+    height: 30%;
 }
 
 #menu {
-  display: none;
-  width: 400px;
-  height: 450px;
-  background-color: rgb(244, 238, 217);
-  position: relative;
-  bottom: 250px;
-  left: 400px;
-  border-radius: 10px;
+    display: none;
+    width: 400px;
+    height: 450px;
+    background-color: rgb(244, 238, 217);
+    position: relative;
+    bottom: 250px;
+    left: 400px;
+    border-radius: 10px;
 }
 
 #title {
-  font-family: 'Kumar One', cursive;
-  font-size: 32px;
-
+    font-family: 'Kumar One', cursive;
+    font-size: 32px;
 }
 
 .songs {
-  font-family: 'Dosis', sans-serif;
+    font-family: 'Dosis', sans-serif;
+}
+
+#lamp {
+  height: 25%;
+  width: 25%;
+  position: absolute;
+  top: 0;
+  margin: auto;
+}
+
+.dimmer {
+  position: absolute;
+  top: 20px;
 }
