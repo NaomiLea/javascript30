@@ -1,7 +1,8 @@
 body {
     background-image: url("http://wallpaper-gallery.net/images/pattern-wallpapers/pattern-wallpapers-11.jpg");
-    opacity: var(--opacity);
+
 }
+
 
 .floor {
     width: 100%;
@@ -78,12 +79,10 @@ body {
     font-family: 'Dosis', sans-serif;
 }
 
-
-
 :root {
     --base: rgb(109, 109, 189);
     --spacing: 10px;
-    --opacity: 1;
+    --blur: 10;
 }
 
 .jukebox {
@@ -115,14 +114,14 @@ body {
 }
 
 #lamp {
-  height: 25%;
-  width: 25%;
-  position: absolute;
-  top: 0;
-  margin: auto;
+    height: 25%;
+    width: 25%;
+    position: absolute;
+    top: 0;
+    margin: auto;
 }
 
 .dimmer {
-  position: absolute;
-  top: 20px;
+    position: absolute;
+    top: 20px;
 }
